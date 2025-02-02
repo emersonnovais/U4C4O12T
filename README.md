@@ -1,5 +1,8 @@
 # U4C4O12T
 
+Autor: Emerson Novais Oliveira
+Matrícula: TIC370100489
+
 Enunciado
 
 Para consolidar a compreensão dos conceitos relacionados ao uso de interrupções no
