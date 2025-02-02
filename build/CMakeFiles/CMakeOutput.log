@@ -35,7 +35,10 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_23038 && [1/2] Building C object CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_531f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_531f7.dir/build.make CMakeFiles/cmTC_531f7.dir/build
+gmake[1]: Entering directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o
+/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -std=gnu11 -o CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc
 Target: arm-none-eabi
@@ -43,8 +46,8 @@ Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure 
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_23038.dir/'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_23038.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/ccf0hPno.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_531f7.dir/'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_531f7.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/ccBIMerh.s
 GNU C11 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
 	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
 
@@ -61,13 +64,15 @@ ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/..
  /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
 End of search list.
 Compiler executable checksum: 9c2ae77c272b305506938e8b4c3643b8
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_23038.dir/'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o /tmp/ccf0hPno.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_531f7.dir/'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o /tmp/ccBIMerh.s
 GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
 COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.'
-[2/2] Linking C executable cmTC_23038.elf
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_531f7.elf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_531f7.dir/link.txt --verbose=1
+/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o -o cmTC_531f7.elf 
 Using built-in specs.
 COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc
 COLLECT_LTO_WRAPPER=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper
@@ -78,10 +83,11 @@ Supported LTO compression algorithms: zlib
 gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
 COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_23038.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_23038.elf.'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnRPfQW.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_23038.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_531f7.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_531f7.elf.'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc61zian.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_531f7.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o
 /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_23038.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_23038.elf.'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_531f7.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_531f7.elf.'
+gmake[1]: Leaving directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -102,7 +108,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_23038 && [1/2] Building C object CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_531f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_531f7.dir/build.make CMakeFiles/cmTC_531f7.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -std=gnu11 -o CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc]
   ignore line: [Target: arm-none-eabi]
@@ -110,8 +119,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_23038.dir/']
-  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_23038.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/ccf0hPno.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_531f7.dir/']
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_531f7.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/ccBIMerh.s]
   ignore line: [GNU C11 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
   ignore line: []
@@ -128,13 +137,15 @@ Parsed C implicit link information from above output:
   ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
   ignore line: [End of search list.]
   ignore line: [Compiler executable checksum: 9c2ae77c272b305506938e8b4c3643b8]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_23038.dir/']
-  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o /tmp/ccf0hPno.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_531f7.dir/']
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o /tmp/ccBIMerh.s]
   ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614]
   ignore line: [COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.']
-  ignore line: [[2/2] Linking C executable cmTC_23038.elf]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_531f7.elf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_531f7.dir/link.txt --verbose=1]
+  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o -o cmTC_531f7.elf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper]
@@ -145,17 +156,17 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
   ignore line: [COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_23038.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_23038.elf.']
-  link line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnRPfQW.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_23038.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_531f7.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_531f7.elf.']
+  link line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc61zian.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_531f7.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o]
     arg [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccnRPfQW.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc61zian.res] ==> ignore
     arg [--sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_23038.elf] ==> ignore
+    arg [cmTC_531f7.elf] ==> ignore
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -164,7 +175,7 @@ Parsed C implicit link information from above output:
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib]
     arg [--build-id=none] ==> ignore
-    arg [CMakeFiles/cmTC_23038.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_531f7.dir/CMakeCCompilerABI.c.o] ==> ignore
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -181,7 +192,10 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_ef83f && [1/2] Building CXX object CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5957c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5957c.dir/build.make CMakeFiles/cmTC_5957c.dir/build
+gmake[1]: Entering directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o
+/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++
 Target: arm-none-eabi
@@ -189,8 +203,8 @@ Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure 
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef83f.dir/'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ef83f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccxNk7pO.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5957c.dir/'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5957c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccc5CTvX.s
 GNU C++17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
 	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
 
@@ -213,13 +227,15 @@ ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/..
  /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
 End of search list.
 Compiler executable checksum: 69c9079aa1e4c9516429742f1abb9d10
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef83f.dir/'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxNk7pO.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5957c.dir/'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccc5CTvX.s
 GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
 COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.'
-[2/2] Linking CXX executable cmTC_ef83f.elf
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_5957c.elf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5957c.dir/link.txt --verbose=1
+/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5957c.elf 
 Using built-in specs.
 COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++
 COLLECT_LTO_WRAPPER=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper
@@ -230,10 +246,11 @@ Supported LTO compression algorithms: zlib
 gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
 COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ef83f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ef83f.elf.'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBvVCeP.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_ef83f.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_5957c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_5957c.elf.'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6LXakK.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_5957c.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o
 /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ef83f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ef83f.elf.'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_5957c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_5957c.elf.'
+gmake[1]: Leaving directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -260,7 +277,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_ef83f && [1/2] Building CXX object CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5957c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5957c.dir/build.make CMakeFiles/cmTC_5957c.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++]
   ignore line: [Target: arm-none-eabi]
@@ -268,8 +288,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef83f.dir/']
-  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ef83f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccxNk7pO.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5957c.dir/']
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_5957c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccc5CTvX.s]
   ignore line: [GNU C++17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
   ignore line: []
@@ -292,13 +312,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
   ignore line: [End of search list.]
   ignore line: [Compiler executable checksum: 69c9079aa1e4c9516429742f1abb9d10]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef83f.dir/']
-  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxNk7pO.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5957c.dir/']
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccc5CTvX.s]
   ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614]
   ignore line: [COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_ef83f.elf]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_5957c.elf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5957c.dir/link.txt --verbose=1]
+  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5957c.elf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper]
@@ -309,17 +331,17 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
   ignore line: [COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_ef83f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_ef83f.elf.']
-  link line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBvVCeP.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_ef83f.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_5957c.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_5957c.elf.']
+  link line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6LXakK.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_5957c.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o]
     arg [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccBvVCeP.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6LXakK.res] ==> ignore
     arg [--sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ef83f.elf] ==> ignore
+    arg [cmTC_5957c.elf] ==> ignore
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -328,7 +350,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib]
     arg [--build-id=none] ==> ignore
-    arg [CMakeFiles/cmTC_ef83f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_5957c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -379,10 +401,10 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6af3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6af3.dir/build.make CMakeFiles/cmTC_b6af3.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dabbf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dabbf.dir/build.make CMakeFiles/cmTC_dabbf.dir/build
 gmake[1]: Entering directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o
-/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -std=gnu11 -o CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o
+/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -std=gnu11 -o CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc
 Target: arm-none-eabi
@@ -390,8 +412,8 @@ Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure 
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_b6af3.dir/'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b6af3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/cctEBURk.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_dabbf.dir/'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dabbf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/ccGEq5Fk.s
 GNU C11 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
 	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
 
@@ -408,15 +430,15 @@ ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/..
  /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
 End of search list.
 Compiler executable checksum: 9c2ae77c272b305506938e8b4c3643b8
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_b6af3.dir/'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o /tmp/cctEBURk.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_dabbf.dir/'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o /tmp/ccGEq5Fk.s
 GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
 COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_b6af3.elf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6af3.dir/link.txt --verbose=1
-/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o -o cmTC_b6af3.elf 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_dabbf.elf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dabbf.dir/link.txt --verbose=1
+/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o -o cmTC_dabbf.elf 
 Using built-in specs.
 COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc
 COLLECT_LTO_WRAPPER=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper
@@ -427,10 +449,10 @@ Supported LTO compression algorithms: zlib
 gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
 COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_b6af3.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_b6af3.elf.'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5cfDlS.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_b6af3.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_dabbf.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_dabbf.elf.'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp681sa.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_dabbf.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o
 /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_b6af3.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_b6af3.elf.'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_dabbf.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_dabbf.elf.'
 gmake[1]: Leaving directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp'
 
 
@@ -452,10 +474,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6af3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6af3.dir/build.make CMakeFiles/cmTC_b6af3.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dabbf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dabbf.dir/build.make CMakeFiles/cmTC_dabbf.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -std=gnu11 -o CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc   -mcpu=cortex-m0plus -mthumb    -v -std=gnu11 -o CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc]
   ignore line: [Target: arm-none-eabi]
@@ -463,8 +485,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_b6af3.dir/']
-  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b6af3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/cctEBURk.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_dabbf.dir/']
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dabbf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/ccGEq5Fk.s]
   ignore line: [GNU C11 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
   ignore line: []
@@ -481,15 +503,15 @@ Parsed C implicit link information from above output:
   ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
   ignore line: [End of search list.]
   ignore line: [Compiler executable checksum: 9c2ae77c272b305506938e8b4c3643b8]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_b6af3.dir/']
-  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o /tmp/cctEBURk.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_dabbf.dir/']
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o /tmp/ccGEq5Fk.s]
   ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614]
   ignore line: [COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_b6af3.elf]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6af3.dir/link.txt --verbose=1]
-  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o -o cmTC_b6af3.elf ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_dabbf.elf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dabbf.dir/link.txt --verbose=1]
+  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o -o cmTC_dabbf.elf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper]
@@ -500,17 +522,17 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
   ignore line: [COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_b6af3.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_b6af3.elf.']
-  link line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5cfDlS.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_b6af3.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_dabbf.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_dabbf.elf.']
+  link line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccp681sa.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_dabbf.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o]
     arg [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc5cfDlS.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccp681sa.res] ==> ignore
     arg [--sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b6af3.elf] ==> ignore
+    arg [cmTC_dabbf.elf] ==> ignore
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -519,7 +541,7 @@ Parsed C implicit link information from above output:
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib]
     arg [--build-id=none] ==> ignore
-    arg [CMakeFiles/cmTC_b6af3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_dabbf.dir/CMakeCCompilerABI.c.o] ==> ignore
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -533,13 +555,15 @@ Parsed C implicit link information from above output:
   implicit fwks: []
 
 
+The target system is: PICO -  - cortex-m0plus
+The host system is: Linux - 5.15.0-132-generic - x86_64
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0cd43/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0cd43.dir/build.make CMakeFiles/cmTC_0cd43.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eecf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eecf9.dir/build.make CMakeFiles/cmTC_eecf9.dir/build
 gmake[1]: Entering directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o
-/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o
+/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++
 Target: arm-none-eabi
@@ -547,8 +571,8 @@ Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure 
 Thread model: single
 Supported LTO compression algorithms: zlib
 gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0cd43.dir/'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0cd43.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccVbgydS.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_eecf9.dir/'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_eecf9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/cctmjT9X.s
 GNU C++17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
 	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
 
@@ -571,15 +595,15 @@ ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/..
  /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
 End of search list.
 Compiler executable checksum: 69c9079aa1e4c9516429742f1abb9d10
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0cd43.dir/'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVbgydS.s
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_eecf9.dir/'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o /tmp/cctmjT9X.s
 GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
 COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_0cd43.elf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cd43.dir/link.txt --verbose=1
-/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0cd43.elf 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_eecf9.elf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eecf9.dir/link.txt --verbose=1
+/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_eecf9.elf 
 Using built-in specs.
 COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++
 COLLECT_LTO_WRAPPER=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper
@@ -590,10 +614,10 @@ Supported LTO compression algorithms: zlib
 gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
 COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_0cd43.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_0cd43.elf.'
- /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctnc8XD.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_0cd43.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_eecf9.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_eecf9.elf.'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHzQw2f.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_eecf9.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o
 /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_0cd43.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_0cd43.elf.'
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_eecf9.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_eecf9.elf.'
 gmake[1]: Leaving directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp'
 
 
@@ -621,10 +645,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0cd43/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0cd43.dir/build.make CMakeFiles/cmTC_0cd43.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eecf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eecf9.dir/build.make CMakeFiles/cmTC_eecf9.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++]
   ignore line: [Target: arm-none-eabi]
@@ -632,8 +656,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0cd43.dir/']
-  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0cd43.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/ccVbgydS.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_eecf9.dir/']
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1plus -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_eecf9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o /tmp/cctmjT9X.s]
   ignore line: [GNU C++17 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
   ignore line: []
@@ -656,15 +680,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
   ignore line: [End of search list.]
   ignore line: [Compiler executable checksum: 69c9079aa1e4c9516429742f1abb9d10]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0cd43.dir/']
-  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVbgydS.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_eecf9.dir/']
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o /tmp/cctmjT9X.s]
   ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614]
   ignore line: [COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_0cd43.elf]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cd43.dir/link.txt --verbose=1]
-  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0cd43.elf ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_eecf9.elf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eecf9.dir/link.txt --verbose=1]
+  ignore line: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb  -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_eecf9.elf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper]
@@ -675,17 +699,17 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
   ignore line: [COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_0cd43.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_0cd43.elf.']
-  link line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctnc8XD.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_0cd43.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_eecf9.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_eecf9.elf.']
+  link line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHzQw2f.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_eecf9.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o]
     arg [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cctnc8XD.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHzQw2f.res] ==> ignore
     arg [--sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0cd43.elf] ==> ignore
+    arg [cmTC_eecf9.elf] ==> ignore
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
@@ -694,7 +718,172 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib]
     arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib]
     arg [--build-id=none] ==> ignore
-    arg [CMakeFiles/cmTC_0cd43.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_eecf9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+  collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
+  collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
+  collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
+  collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1]
+  collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc]
+  collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib]
+  collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp;/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp;/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1;/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc;/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc 
+Build flags: ;-mcpu=cortex-m0plus;-mthumb
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 13.3.1 20240614
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_42eb8 && [1/2] Building C object CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_42eb8.dir/'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_42eb8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/ccCMhZ4k.s
+GNU C11 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"
+ignoring nonexistent directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"
+ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include
+End of search list.
+Compiler executable checksum: 9c2ae77c272b305506938e8b4c3643b8
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_42eb8.dir/'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o /tmp/ccCMhZ4k.s
+GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614
+COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_42eb8.elf
+Using built-in specs.
+COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 
+COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_42eb8.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_42eb8.elf.'
+ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6Fw4sh.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_42eb8.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o
+/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_42eb8.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_42eb8.elf.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+    add: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+    add: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include]
+  collapse include dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+  collapse include dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include]
+  implicit include dirs: [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include;/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/include-fixed;/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_42eb8 && [1/2] Building C object CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_42eb8.dir/']
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/cc1 -quiet -v -imultilib thumb/v6-m/nofp -iprefix /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/ -isysroot /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_42eb8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -std=gnu11 -version -o /tmp/ccCMhZ4k.s]
+  ignore line: [GNU C11 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) version 13.3.1 20240614 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring duplicate directory "/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include]
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed]
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: 9c2ae77c272b305506938e8b4c3643b8]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_42eb8.dir/']
+  ignore line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/as -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o /tmp/ccCMhZ4k.s]
+  ignore line: [GNU assembler version 2.42.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) 2.42.0.20240614]
+  ignore line: [COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-std=gnu11' '-o' 'CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_42eb8.elf]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-13/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-13/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 13.3.1 20240614 (Arm GNU Toolchain 13.3.Rel1 (Build arm-13.24)) ]
+  ignore line: [COMPILER_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/:/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_42eb8.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_42eb8.elf.']
+  link line: [ /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2 -plugin /home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so -plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6Fw4sh.res --sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi -X -o cmTC_42eb8.elf -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1 -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib -L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o]
+    arg [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../libexec/gcc/arm-none-eabi/13.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6Fw4sh.res] ==> ignore
+    arg [--sysroot=/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_42eb8.elf] ==> ignore
+    arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
+    arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+    arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+    arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1]
+    arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc]
+    arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib]
+    arg [-L/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib] ==> dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib]
+    arg [--build-id=none] ==> ignore
+    arg [CMakeFiles/cmTC_42eb8.dir/CMakeCCompilerABI.c.o] ==> ignore
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp]
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]
   collapse library dir [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [/home/emerson/.pico-sdk/toolchain/13_3_Rel1/arm-none-eabi/lib/thumb/v6-m/nofp]

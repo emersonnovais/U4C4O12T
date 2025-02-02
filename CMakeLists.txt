@@ -1,7 +1,7 @@
 # Generated Cmake Pico project file
 
 cmake_minimum_required(VERSION 3.13)
-
+set(PICO_SDK_PATH "/home/emerson/.pico-sdk/sdk/2.1.0")
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -50,6 +50,12 @@ target_link_libraries(U4C4O12T
     pico_cyw43_arch_none
     hardware_clocks
 )
+
+# Aqui você inclui a biblioteca WS2812
+add_subdirectory(Pico_WS2812)
+
+# Vincula a biblioteca WS2812
+target_link_libraries(U4C4O12T Pico_WS2812)
 
 # Gera os arquivos de saída, incluindo .UF2
 pico_add_extra_outputs(U4C4O12T)
