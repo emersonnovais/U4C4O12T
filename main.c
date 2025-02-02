@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
-//#include "ws2812.pio.h"
 
 #define LED_RED 11
 #define LED_GREEN 12
@@ -37,17 +36,21 @@ void button_b_isr(uint gpio, uint32_t events) {
 }
 
 void setup_gpio() {
+    //Inicializando os pinos dos LEDs:
     gpio_init(LED_RED);
     gpio_init(LED_GREEN);
     gpio_init(LED_BLUE);
+    //Configurando os pinos dos LEDs:
     gpio_set_dir(LED_RED, GPIO_OUT);
     gpio_set_dir(LED_GREEN, GPIO_OUT);
     gpio_set_dir(LED_BLUE, GPIO_OUT);
 
+    //Inicializando o botão A e fazendo ajustes:
     gpio_init(BUTTON_A);
     gpio_pull_up(BUTTON_A);
     gpio_set_irq_enabled_with_callback(BUTTON_A, GPIO_IRQ_EDGE_FALL, true, &button_a_isr);
 
+    //Inicializando o botão B e fazendo ajustes:
     gpio_init(BUTTON_B);
     gpio_pull_up(BUTTON_B);
     gpio_set_irq_enabled_with_callback(BUTTON_B, GPIO_IRQ_EDGE_FALL, true, &button_b_isr);
