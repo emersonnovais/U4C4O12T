@@ -19,8 +19,7 @@
 			"pico_generate_pio_header",
 			"target_compile_definitions",
 			"pico_set_program_name",
-			"pico_set_program_version",
-			"target_include_directories"
+			"pico_set_program_version"
 		],
 		"files" : 
 		[
@@ -45,7 +44,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 62,
+				"line" : 55,
 				"parent" : 0
 			},
 			{
@@ -63,7 +62,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 52,
+				"line" : 45,
 				"parent" : 0
 			},
 			{
@@ -84,13 +83,13 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 55,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
 				"command" : 8,
 				"file" : 0,
-				"line" : 44,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -102,7 +101,7 @@
 			{
 				"command" : 9,
 				"file" : 0,
-				"line" : 45,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -116,12 +115,6 @@
 				"file" : 2,
 				"line" : 69,
 				"parent" : 2
-			},
-			{
-				"command" : 10,
-				"file" : 0,
-				"line" : 42,
-				"parent" : 0
 			}
 		]
 	},
@@ -386,10 +379,6 @@
 			],
 			"includes" : 
 			[
-				{
-					"backtrace" : 15,
-					"path" : "/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build"
-				},
 				{
 					"backtrace" : 5,
 					"path" : "/home/emerson/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic/include"
@@ -1049,10 +1038,6 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 15,
-					"path" : "/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build"
-				},
-				{
 					"backtrace" : 5,
 					"path" : "/home/emerson/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic/include"
 				},
@@ -1664,10 +1649,6 @@
 			],
 			"includes" : 
 			[
-				{
-					"backtrace" : 15,
-					"path" : "/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build"
-				},
 				{
 					"backtrace" : 5,
 					"path" : "/home/emerson/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic/include"

@@ -34,13 +34,6 @@ pico_sdk_init()
 # Adiciona o executável com o único arquivo do projeto
 add_executable(U4C4O12T main.c)
 
-# Gera o arquivo de cabeçalho PIO
-# Certifique-se de que o arquivo ws2812.pio exista no diretório raiz do projeto
-#pico_generate_pio_header(U4C4O12T ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio)
-
-# Adiciona diretório de inclusão para os arquivos gerados
-target_include_directories(U4C4O12T PRIVATE ${CMAKE_CURRENT_BINARY_DIR})
-
 pico_set_program_name(U4C4O12T "U4C4O12T")
 pico_set_program_version(U4C4O12T "0.1")
 

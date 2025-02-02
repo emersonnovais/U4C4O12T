@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
-#include "ws2812.pio.h"
+//#include "ws2812.pio.h"
 
 #define LED_RED 11
 #define LED_GREEN 12

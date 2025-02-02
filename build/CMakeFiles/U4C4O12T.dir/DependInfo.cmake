@@ -87,7 +87,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "."
   "/home/emerson/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic/include"
   "pico-sdk/src/rp2_common/pico_cyw43_driver"
   "/home/emerson/.pico-sdk/sdk/2.1.0/src/common/pico_stdlib_headers/include"
