@@ -189,6 +189,22 @@
 			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
 		},
 		{
+			"isExternal" : true,
+			"path" : "/home/emerson/.pico-sdk/tools/2.1.0/pioasm/pioasmConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/emerson/.pico-sdk/tools/2.1.0/pioasm/pioasmConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/emerson/.pico-sdk/tools/2.1.0/pioasm/pioasmTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/emerson/.pico-sdk/tools/2.1.0/pioasm/pioasmTargets-release.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake-3.22/Modules/FetchContent.cmake"

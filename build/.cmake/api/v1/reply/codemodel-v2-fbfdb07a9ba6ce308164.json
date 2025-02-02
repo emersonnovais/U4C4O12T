@@ -19,7 +19,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				},
 				{
@@ -340,9 +341,9 @@
 					"source" : "/home/emerson/.pico-sdk/sdk/2.1.0/src/rp2040/boot_stage2",
 					"targetIndexes" : 
 					[
-						1,
 						2,
-						3
+						3,
+						4
 					]
 				},
 				{
@@ -977,7 +978,7 @@
 					"source" : "/home/emerson/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cyw43_driver",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -1202,7 +1203,8 @@
 					"name" : "U4C4O12T",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				},
 				{
@@ -1308,10 +1310,10 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -1320,8 +1322,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "U4C4O12T::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-U4C4O12T-Debug-deba95d6f14c6187a515.json",
+					"jsonFile" : "target-U4C4O12T-Debug-fd710a0815d50c9aab37.json",
 					"name" : "U4C4O12T",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "U4C4O12T_ws2812_pio_h::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-U4C4O12T_ws2812_pio_h-Debug-7c0d535ca06d4e37681a.json",
+					"name" : "U4C4O12T_ws2812_pio_h",
 					"projectIndex" : 0
 				},
 				{
