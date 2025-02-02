@@ -130,19 +130,6 @@ U4C4O12T/fast:
 .PHONY : U4C4O12T/fast
 
 #=============================================================================
-# Target rules for targets named U4C4O12T_ws2812_pio_h
-
-# Build rule for target.
-U4C4O12T_ws2812_pio_h: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 U4C4O12T_ws2812_pio_h
-.PHONY : U4C4O12T_ws2812_pio_h
-
-# fast build rule for target.
-U4C4O12T_ws2812_pio_h/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/U4C4O12T_ws2812_pio_h.dir/build.make CMakeFiles/U4C4O12T_ws2812_pio_h.dir/build
-.PHONY : U4C4O12T_ws2812_pio_h/fast
-
-#=============================================================================
 # Target rules for targets named bs2_default
 
 # Build rule for target.
@@ -1874,7 +1861,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... U4C4O12T_ws2812_pio_h"
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... U4C4O12T"

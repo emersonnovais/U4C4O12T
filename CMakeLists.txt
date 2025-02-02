@@ -36,7 +36,7 @@ add_executable(U4C4O12T main.c)
 
 # Gera o arquivo de cabeçalho PIO
 # Certifique-se de que o arquivo ws2812.pio exista no diretório raiz do projeto
-pico_generate_pio_header(U4C4O12T ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio)
+#pico_generate_pio_header(U4C4O12T ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio)
 
 # Adiciona diretório de inclusão para os arquivos gerados
 target_include_directories(U4C4O12T PRIVATE ${CMAKE_CURRENT_BINARY_DIR})

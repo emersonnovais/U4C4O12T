@@ -1,5 +1,4 @@
 /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/U4C4O12T.dir
-/home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/U4C4O12T_ws2812_pio_h.dir
 /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/edit_cache.dir
 /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/CMakeFiles/rebuild_cache.dir
 /home/emerson/Documentos/concursos/Embarcatech/materiais/U4/tarefas/U4C4O12T/U4C4O12T/build/pico-sdk/CMakeFiles/edit_cache.dir
